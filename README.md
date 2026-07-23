@@ -96,4 +96,4 @@ disabled.
 - `docs/design.md`: architecture and invariants.
 - `docs/acceptance.md`: acceptance status.
 - `docs/evidence.md`: observed primary-source and execution evidence.
-- `HANDOFF.md`: implementation-session source of truth.
+- `CONTRIBUTING.md`: public development, safety, and verification rules.

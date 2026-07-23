@@ -6,3 +6,8 @@ coverage/
 # Local controller state and operator-only instructions.
 .codex-data/
 AGENTS.md
+CLAUDE.md
+HANDOFF.md
+.agents/
+.claude/
+.codex/
