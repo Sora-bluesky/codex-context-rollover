@@ -1,0 +1,19 @@
+{
+  "mode": "provider",
+  "projectRoot": "C:\\absolute\\path\\to\\explicit-project",
+  "dataDirectory": "C:\\absolute\\path\\to\\plugin-data",
+  "handoffPaths": [
+    "HANDOFF.md"
+  ],
+  "requiredHandoffHeadings": [
+    "# HANDOFF",
+    "## 完了した作業",
+    "## 保留中の作業"
+  ],
+  "thresholds": {
+    "remainingPercent": 20,
+    "rawRemainingTokens": 48000
+  },
+  "watcherAcknowledgementTimeoutMs": 30000,
+  "watcherCancellationTimeoutMs": 1000
+}

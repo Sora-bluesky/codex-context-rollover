@@ -1,0 +1,16 @@
+{
+  "name": "codex-context-rollover",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Safe, acknowledgement-driven Codex context rollover controller.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:unit": "node --test test/unit/*.test.mjs",
+    "test:e2e": "node --test test/e2e/*.test.mjs",
+    "dry-run": "node scripts/dry-run.mjs"
+  }
+}

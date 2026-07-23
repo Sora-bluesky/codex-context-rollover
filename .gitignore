@@ -1,0 +1,8 @@
+node_modules/
+coverage/
+.nyc_output/
+*.log
+
+# Local controller state and operator-only instructions.
+.codex-data/
+AGENTS.md

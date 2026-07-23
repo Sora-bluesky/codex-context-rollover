@@ -1,0 +1,21 @@
+{
+  "name": "codex-context-rollover",
+  "version": "0.1.0",
+  "description": "Plan and execute safe Codex thread rollover before context quality degrades.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Context Rollover",
+    "shortDescription": "Carry operator work into a fresh Codex thread safely.",
+    "longDescription": "Detect low remaining context, update the handoff source of truth, transfer CI monitoring, create a fresh thread, and leave a durable pointer in the old thread.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Show the current rollover status.",
+      "Validate this project's rollover configuration."
+    ]
+  }
+}
